@@ -74,14 +74,12 @@ div {
     &__track {
       width: 100%;
       height: 0.6rem;
-      position: relative;
       border-radius: 0.6rem;
       background-color: white;
       cursor: pointer;
     }
 
     &__bar {
-      position: absolute;
       width: 20%;
       height: 100%;
       border-radius: inherit;
