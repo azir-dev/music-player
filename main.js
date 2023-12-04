@@ -4,6 +4,18 @@ let playStatus = false;
 // 音乐资源 URI
 const musics = [
   {
+    title: "热河",
+    artist: "李志",
+    img: "./img/jacinto-2.jpg",
+    uri: "./music/music-5.flac",
+  },
+  {
+    title: "国际歌",
+    artist: "唐朝乐队",
+    img: "./img/metric-1.jpg",
+    uri: "./music/music-4.flac",
+  },
+  {
     title: "某人",
     artist: "汪苏泷",
     img: "./img/jacinto-1.jpg",
@@ -16,16 +28,10 @@ const musics = [
     uri: "./music/music-2.flac",
   },
   {
-    title: "Goodnight, Disco Queen",
-    artist: "Jacinto Design",
+    title: "当年情",
+    artist: "张国荣",
     img: "./img/jacinto-3.jpg",
-    uri: "./music/jacinto-3.mp3",
-  },
-  {
-    title: "Front Row (Remix)",
-    artist: "Metric/Jacinto Design",
-    img: "./img/metric-1.jpg",
-    uri: "./music/metric-1.mp3",
+    uri: "./music/music-3.flac",
   },
 ];
 
