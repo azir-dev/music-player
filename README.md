@@ -1,12 +1,28 @@
 # Music Player
 
-播放器组件
+音乐播放器组件
 
 在线预览 [GitHub Pages](https://azir-dev.github.io/music-player/)
 
 ## 要点文档
 
+> audio 元素及事件处理
+>
+> [MDN - audio](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/audio#%E4%BA%8B%E4%BB%B6)
+
+> Javascript 动画
+>
+> [JavascriptInfo - Javascript 动画](https://zh.javascript.info/js-animation)
+
 ## 感谢免费资源提供商
+
+> 字体库
+>
+> [Google Fonts Ma Shan Zheng](https://fonts.google.com/)
+
+> icons
+>
+> [fontAwesome.com](https://fontawesome.com/icons)
 
 > Favicon
 >
