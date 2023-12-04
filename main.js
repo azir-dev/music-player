@@ -124,6 +124,7 @@ progressTrack.addEventListener("click", function (event) {
     (event.offsetX / this.clientWidth) * audioElement.duration;
   audioElement.currentTime = currentTime;
   progressBar.style.width = (event.offsetX / this.clientWidth) * 100 + "%";
+  progressCurrent.textContent = secondsToMinutes(currentTime);
 });
 
 // 音乐信息加载初始化
