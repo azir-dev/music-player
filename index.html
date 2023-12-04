@@ -2,11 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c57726c26d.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Music Player</title>
   </head>
   <body>
-    <h1>Init Project</h1>
+    <div class="music">
+      <div class="music__img">
+        <img src="/img/jacinto-1.jpg" alt="music image" />
+      </div>
+
+      <h2 class="music__title">Electric Chill Machine</h2>
+      <h3 class="music__artist">Jacinto Design</h3>
+
+      <audio id="music-source"></audio>
+      <div class="progress">
+        <span>1:00</span>
+        <div class="progress__track">
+          <div class="progress__bar"></div>
+        </div>
+        <span>2:06</span>
+      </div>
+
+      <div class="control">
+        <i class="fas fa-backward control__icon" id="prev" title="Previous"></i>
+        <i
+          class="fas fa-play main-button control__icon"
+          id="play"
+          title="Play"
+        ></i>
+        <i class="fas fa-forward control__icon" id="next" title="Next"></i>
+      </div>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
