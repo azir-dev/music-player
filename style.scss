@@ -48,7 +48,8 @@ div {
     margin: 0;
   }
   &__artist {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
     font-weight: 400;
     margin: {
       top: 1rem;
@@ -63,6 +64,7 @@ div {
 
     span {
       font-size: 1.4rem;
+      flex-shrink: 0;
     }
 
     &__track {
@@ -90,6 +92,9 @@ div {
     &__icon {
       cursor: pointer;
       vertical-align: middle;
+      height: 4.4rem;
+      width: 4.4rem;
+      line-height: 4.4rem;
 
       &.main-button {
         font-size: 3.6rem;
