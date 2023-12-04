@@ -24,9 +24,6 @@ const progressDuration = document.querySelector(".progress__timer--duration");
 const progressTrack = document.querySelector(".progress__track");
 const progressBar = document.querySelector(".progress__bar");
 
-// var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-// const track = audioCtx.createMediaElementSource(audioElement);
-
 /**
  * 设置音乐信息
  */
@@ -37,7 +34,6 @@ function setMusicInfo() {
   musicTitle.textContent = currentMusic.title;
   musicArtist.textContent = currentMusic.artist;
 
-  // console.log(audioElement.duration);
   audioElement.onloadedmetadata = () => {
     progressDuration.textContent = secondsToMinutes(audioElement.duration);
     progressCurrent.textContent = secondsToMinutes(audioElement.currentTime);
