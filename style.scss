@@ -31,15 +31,19 @@ div {
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 
   &__img {
-    height: 30rem;
-    width: 30rem;
     position: relative;
+    width: 80%;
+    padding-top: 80%;
     top: -5rem;
-    left: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
 
     img {
       height: 100%;
+      position: absolute;
       width: 100%;
+      top: 0;
+      left: 0;
       object-fit: cover;
       border-radius: 2rem;
       box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
@@ -102,6 +106,18 @@ div {
         font-size: 3.6rem;
         margin: 0 2rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 31.25em) {
+  .music {
+    width: 90%;
+    height: auto;
+    padding-bottom: 2rem;
+
+    .progress {
+      padding: 0 1rem;
     }
   }
 }
